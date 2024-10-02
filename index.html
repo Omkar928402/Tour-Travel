@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>TOUR & TRAVEL WEBSITE</title>
+  </head>
+  <body>
+    <header>
+      <!-- Navbar section -->
+      <div class="navbar">
+        <div class="nav-logo">
+          <a href="#" class="logo"></a>
+        </div>
+        <a href="/">Home</a>
+        <a href="#form">Book</a>
+        <a href="#Pacakage">Pacakages</a>
+        <a href="#Services">Services</a>
+        <a href="Gallery">Gallery</a>
+        <a href="#Revive">Revive</a>
+        <a href="Contact">Contact</a>
+
+        <!-- search bar -->
+        <div class="search">
+          <i class="fa-solid fa-magnifying-glass awesome-logo"></i>
+        </div>
+        <!-- User logo -->
+        <div class="user">
+          <i class="fa-solid fa-user awesome-logo"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- Video panel 2-->
+    <section class="video">
+      <video id="slider" autoplay loop muted>
+        <source src="5302159_Bali_Balinese_1280x720.mp4" />
+      </video>
+    </section>
+    <!-- Book section  -->
+    <form id="form">
+      <!-- book logo  -->
+      <div class="book-head">
+        <div id="book-logo"></div>
+      </div>
+      <!-- booking form  -->
+      <div class="form">
+        <div class="book-image"></div>
+        <!-- inforamation of traveler  -->
+
+        <div class="fill-form">
+          <h1>Travel Form Booking...</h1>
+          <br /><br />
+          <h3>Enter your name</h3>
+          <input
+            type="text"
+            placeholder="Enter your name"
+            class="info"
+            id="myName"
+          /><br /><br />
+          <h3>Mobile no</h3>
+          <input
+            type="number"
+            placeholder="Enter mobile no"
+            class="info"
+            id="myNo"
+          /><br /><br />
+          <h3>Destination</h3>
+          <input
+            type="text"
+            placeholder=" Enter Place name"
+            class="info"
+            id="myplace"
+          />
+          <br /><br />
+          <h3>No of Members</h3>
+          <input type="number" class="info" id="myNomemb" /><br /><br />
+          <h3>Arrivals</h3>
+          <input type="datetime-local" class="info" id="mydate" /><br /><br />
+          <h3>Choose mode of Transportation</h3>
+          <select name="cars" id="myvehicle">
+            <option value="CAR">CAR</option>
+            <option value="ROOLS ROYCE">ROOLS ROYCE</option>
+            <option value="SUPRA">SUPRA</option>
+            <option value="PRIVATE JET">PRIVATE JET</option></select
+          ><br /><br />
+          <input type="Submit" id="mySubmit" class="button" />
+          <input type="Reset" id="myReset" class="button" />
+        </div>
+      </div>
+    </form>
+    <!-- pacakages  -->
+    <pacakage id="Pacakage">
+      <div id="pacakage">
+        <!-- mumbai  -->
+        <div class="places place1">
+          <div
+            class="place-img"
+            style="background-image: url(india\ gate.jpg)"
+          ></div>
+          <h2>
+            <i class="fa-solid fa-location-dot awesome-logo"></i> <i>Mumbai</i>
+          </h2>
+          -City of Dreams<br />
+          <h4>90.00$</h4>
+          <button class="BookNow">Book Now</button>
+        </div>
+        <!-- dubai  -->
+        <div class="places">
+          <div
+            class="place-img"
+            style="background-image: url(dubai.jpeg)"
+          ></div>
+          <h2>
+            <i class="fa-solid fa-location-dot awesome-logo"></i> <i>Dubai</i>
+          </h2>
+          - Hababi Come to Dubai<br />
+          <h4>80.00$</h4>
+          <button class="BookNow">Book Now</button>
+        </div>
+        <!-- vegas  -->
+        <div class="places">
+          <div
+            class="place-img"
+            style="background-image: url(las\ vegas.jpg)"
+          ></div>
+          <h2>
+            <i class="fa-solid fa-location-dot awesome-logo"></i>
+            <i>Las Vegas</i>
+          </h2>
+          -US Polister<br />
+          <h4>900.00$</h4>
+          <button class="BookNow">Book Now</button>
+        </div>
+        <!-- bali  -->
+        <div class="places">
+          <div class="place-img" style="background-image: url(bali.jpeg)"></div>
+          <h2>
+            <i class="fa-solid fa-location-dot awesome-logo"></i> <i>Bali</i>
+          </h2>
+          -God own Country<br />
+          <h4>69.00$</h4>
+          <button class="BookNow">Book Now</button>
+        </div>
+        <!-- paris  -->
+        <div class="places">
+          <div class="place-img" style="background-image: url(paris.jpg)"></div>
+          <h2>
+            <i class="fa-solid fa-location-dot awesome-logo"></i> <i>Paris</i>
+          </h2>
+          -City of Dreams<br />
+          <h4>63.00$</h4>
+          <button class="BookNow">Book Now</button>
+        </div>
+        <!-- taj  -->
+        <div class="places">
+          <div class="place-img" style="background-image: url(taj.jpg)"></div>
+          <h2>
+            <i class="fa-solid fa-location-dot awesome-logo"></i>
+            <i>Taj Mahal</i>
+          </h2>
+          -UP<br />
+          <h4>499.00$</h4>
+          <button class="BookNow">Book Now</button>
+        </div>
+        <!-- china wall  -->
+        <div class="places">
+          <div
+            class="place-img"
+            style="background-image: url(chinaWall.webp)"
+          ></div>
+          <h2>
+            <i class="fa-solid fa-location-dot awesome-logo"></i> <i>China</i>
+          </h2>
+          -The Great Wall Of China<br />
+          <h4>1000.9$</h4>
+          <button class="BookNow">Book Now</button>
+        </div>
+        <!-- egypt  -->
+        <div class="places">
+          <div class="place-img" style="background-image: url(egypt.jpg)"></div>
+          <h2>
+            <i class="fa-solid fa-location-dot awesome-logo"></i> <i>Egypt</i>
+          </h2>
+          -Black Rock<br />
+          <button class="BookNow">Book Now</button>
+        </div>
+      </div>
+    </pacakage>
+    <!-- pacakages  -->
+    <div id="Services">
+      <div class="facilities">
+        <div class="facility">
+          <i class="fa-solid fa-hotel service-logo"></i><br />
+          <h1>Affordable Hotels</h1>
+          <p>
+            Lorem ipsum dolor sit amet iosam itaque imtibus eaque pariatur
+            tempore soluta a i quos vitae d, eligendi officiis commodi id eum
+            quo quas fugit.
+          </p>
+        </div>
+        <div class="facility">
+          <i class="fa-solid fa-utensils service-logo"></i>
+          <h1>Food and Drinks</h1>
+          <p>
+            Lorem ipsum dolor sit amet iosam itaque imtibus eaque pariatur
+            tempore soluta a cumque dolores sint. soluta a i quos vitae d,
+            eligendi
+          </p>
+        </div>
+        <div class="facility">
+          <i class="fa-solid fa-location-dot service-logo"></i>
+          <h1>Sagety guide</h1>
+          <p>
+            Lorem ipsum dolor sit amet iosam itaque imtibus eaque pariatur
+            tempore soluta a cumque dolores sint. soluta a i quos vitae d,
+            eligendi
+          </p>
+        </div>
+        <div class="facility">
+          <i class="fa-solid fa-globe service-logo"></i>
+          <h1>Around The World</h1>
+          <p>
+            Lorem ipsum dolor sit amet iosam itaque imtibus eaque pariatur
+            tempore soluta a cumque dolores sint. soluta a i quos vitae d,
+            eligendi
+          </p>
+        </div>
+        <div class="facility">
+          <i class="fa-solid fa-plane service-logo"></i>
+          <h1>Fatest Travel</h1>
+          <p>
+            Lorem ipsum dolor sit amet iosam itaque imtibus eaque pariatur
+            tempore soluta a cumque dolores sint. soluta a i quos vitae d,
+            eligendi
+          </p>
+        </div>
+        <div class="facility">
+          <i class="fa-solid fa-person-hiking service-logo"></i>
+          <h1>Adventures</h1>
+          <p>
+            Lorem ipsum dolor sit amet iosam itaque imtibus eaque pariatur
+            tempore soluta a cumque dolores sint. soluta a i quos vitae d,
+            eligendi
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Review  -->
+    <div id="Revive">
+      <div class="boxes">
+        <div class="celebs">
+          <div class="hero" style="background-image: url(hero1.jpg)"></div>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+            voluptateemporibus quam possimus suscipit sapiente rem nostrum
+            tempora vitae deleniti fugit eum dolorum in fuga, quas sequi?
+          </p>
+        </div>
+        <div class="celebs">
+          <div class="hero" style="background-image: url(pathan.jpg)"></div>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+            voluptateemporibus quam possimus suscipit sapiente rem nostrum
+            tempora vitae deleniti fugit eum dolorum in fuga, quas sequi?
+          </p>
+        </div>
+        <div class="celebs">
+          <div class="hero" style="background-image: url(hero4.jpg)"></div>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+            voluptateemporibus quam possimus suscipit sapiente rem nostrum
+            tempora vitae deleniti fugit eum dolorum in fuga, quas sequi?
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="first.js"></script>
+  </body>
+</html>
