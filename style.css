@@ -152,7 +152,7 @@ h4 {
   border-radius: 0.3rem;
   font-size: 15px;
 }
-.BookNow:hover{
+.BookNow:hover {
   background-color: rgba(226, 147, 0, 0.653);
   cursor: pointer;
 }
@@ -178,7 +178,7 @@ h4 {
   align-items: center;
   flex-wrap: wrap;
 }
-.facility i{
+.facility i {
   width: 400px;
   display: flex;
   justify-content: center;
@@ -198,7 +198,7 @@ p {
 .boxes {
   height: 600px;
   width: 100vm;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -207,7 +207,7 @@ p {
 .celebs {
   height: 400px;
   width: 400px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   border-radius: 1.5rem;
   display: flex;
   justify-content: center;
@@ -218,7 +218,7 @@ p {
 .hero {
   height: 200px;
   width: 200px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   background-color: rosybrown;
   border-radius: 50%;
   background-size: cover;
@@ -228,4 +228,41 @@ p {
   color: orange;
   font-size: large;
 }
+/* contact  */
+.contact {
+  height: 600px;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.contact_logo {
+  height: 500px;
+  width: 700px;
+  /* border: 1px solid black; */
+  border-radius: 1rem;
+  background-size: cover;
+}
 
+.contact_info {
+  height: 500px;
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding-top: 20px;
+  padding-left: 50px;
+  background-color: white;
+}
+#info {
+  height: 40px;
+  width: 400px;
+  border-radius: 1rem;
+  border: 2px solid black;
+ font-size: large;
+}
+.textarea {
+  padding-left: 50px;
+  border: 2px solid black;
+  border-radius: 1rem;
+}

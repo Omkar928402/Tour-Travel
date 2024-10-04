@@ -24,9 +24,8 @@
         <a href="#form">Book</a>
         <a href="#Pacakage">Pacakages</a>
         <a href="#Services">Services</a>
-        <a href="Gallery">Gallery</a>
         <a href="#Revive">Revive</a>
-        <a href="Contact">Contact</a>
+        <a href="#Contact">Contact</a>
 
         <!-- search bar -->
         <div class="search">
@@ -40,14 +39,15 @@
     </header>
 
     <!-- Video panel 2-->
-    <section class="video">
-      <video id="slider" autoplay loop muted>
-        <source src="5302159_Bali_Balinese_1280x720.mp4" />
-      </video>
-    </section>
+    <div id="navbar">
+      <section class="video">
+        <video id="slider" autoplay loop muted>
+          <source src="5302159_Bali_Balinese_1280x720.mp4" />
+        </video>
+      </section>
+    </div>
     <!-- Book section  -->
     <form id="form">
-   
       <!-- book logo  -->
       <div class="book-head">
         <div id="book-logo"></div>
@@ -286,9 +286,31 @@
           </p>
         </div>
       </div>
-     
     </div>
-    
+    <!-- contact section  -->
+    <footer>
+      <div id="Contact">
+        <!--  calling -->
+        <div class="contact">
+          <div
+            class="contact_logo"
+            style="background-image: url(contact\ 2.jpg)"
+          ></div>
+          <div class="contact_info">
+            <input type="text" placeholder=" Name" id="info" /><br /><br />
+
+            <input type="email" placeholder="E-mail" id="info" /><br /><br />
+
+            <input type="number" placeholder="Number" id="info" /><br />
+            <br />
+
+            <input type="text" placeholder="Subject" id="info" /><br />
+            <br />
+            <textarea rows="10" cols="50" class="textarea"> Message !</textarea>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="first.js"></script>
   </body>
 </html>
