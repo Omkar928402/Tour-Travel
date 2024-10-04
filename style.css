@@ -207,7 +207,7 @@ p {
 .celebs {
   height: 400px;
   width: 400px;
-  /* border: 1px solid black; */
+  border: 1px solid black;
   border-radius: 1.5rem;
   display: flex;
   justify-content: center;
@@ -259,7 +259,7 @@ p {
   width: 400px;
   border-radius: 1rem;
   border: 2px solid black;
- font-size: large;
+  font-size: large;
 }
 .textarea {
   padding-left: 50px;

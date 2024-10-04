@@ -21,11 +21,10 @@ document.getElementById("mySubmit").onclick = function () {
   console.log("NO of members-" + menbers);
   console.log("Date-" + date);
   console.log("vehicle-" + vehicle);
-  document.getElementById("myName").value='';
-  document.getElementById("myNo").value='';
-  document.getElementById("myplace").value='';
-  document.getElementById("myNomemb").value='';
-  document.getElementById("mydate").value='';
-  document.getElementById("myvehicle").value='';
-
+  document.getElementById("myName").value = "";
+  document.getElementById("myNo").value = "";
+  document.getElementById("myplace").value = "";
+  document.getElementById("myNomemb").value = "";
+  document.getElementById("mydate").value = "";
+  document.getElementById("myvehicle").value = "";
 };
